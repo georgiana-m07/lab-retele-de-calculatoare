@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="eachBNR.xsl" ?>
+<!-- Fisierul continind informatii despre variata cursului valutar  pentru mai multe monede, intr-o anumita perioada de timp -->
+<cursBNR cursvalutar="Variatia cursului valutar">
+	<moneda nume="Euro">
+		<curs data="10.03.2013">4.3627 </curs>
+		<curs data="11.03.2013">4.3001 </curs>
+		<curs data="12.03.2013">4.3252 </curs>
+		<curs data="13.03.2013">4.2714 </curs>
+		<curs data="14.03.2013">4.3102 </curs>
+		<curs data="15.03.2013">4.3015 </curs>
+	</moneda>
+	<moneda nume="Dolar">
+		<curs data="10.03.2013">3.4190 </curs>
+		<curs data="11.03.2013">3.4309 </curs>
+		<curs data="12.03.2013">3.4193 </curs>
+		<curs data="13.03.2013">3.4299 </curs>
+		<curs data="14.03.2013">3.4205 </curs>
+		<curs data="15.03.2013">3.4260 </curs>
+	</moneda>
+	<moneda nume="FrancElvetian">
+		<curs data="10.03.2013">3.5963</curs>
+		<curs data="11.03.2013">3.5874</curs>
+		<curs data="12.03.2013">3.5806</curs>
+		<curs data="13.03.2013">3.5902 </curs>
+		<curs data="14.03.2013">3.5925 </curs>
+		<curs data="15.03.2013">3.5874 </curs>
+		<curs data="16.03.2013">3.5856 </curs>
+	</moneda>
+
+</cursBNR>

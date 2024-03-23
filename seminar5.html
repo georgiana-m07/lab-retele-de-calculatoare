@@ -1,0 +1,129 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Seeminar 5</title>
+        <style>
+            #formular2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding: 2rem;
+            }
+
+            label, input {
+                margin-bottom: 1rem;
+            }
+
+            #btngrup {
+                margin-top: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Seminar 5</h1>
+        <div class="formular1">
+            <h2>Formular 1</h2>
+            <form>
+                <label for="nume">Nume</label>
+                <input type="text" id="nume" name="nume" required><br>
+                <label for="prenume">Prenume</label>
+                <input type="text" id="prenume" name="prenume" required><br>
+                <label for="mesaj">Mesaj</label><br>
+                <textarea id="mesaj" name="mesaj" required placeholder="Scrieti mesajul aici:"></textarea><br>
+                <button type="submit">Trimite mesaj</button>
+                <a href="mailto: johndoe@mail.com"></a>
+            </form>
+        </div>
+        <div class="formular2">
+            <h2>Formular 2</h2>
+            <form>
+                <label for="nume">Nume</label>
+                <input type="text" id="nume" name="nume" required><br>
+                <label for="prenume">Prenume</label>
+                <input type="text" id="prenume" name="prenume" required><br>
+                <label for="datanastere">Data nasterii:</label>
+                <input type="date" id="datanastere" name="datanastere">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="an">An</label>
+                <select id="an" name="an">
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                </select>
+                <fieldset>
+                    <legend>Specializarea</legend>
+                    <label>
+                        <input type="radio" name="specializare" value="cig"/>
+                        CIG
+                    </label>
+                    <label>
+                        <input type="radio" name="specializare" value="eai"/>
+                        EAI
+                    </label>
+                    <label>
+                        <input type="radio" name="specializare" value="ects"/>
+                        ECTS
+                    </label>
+                    <label>
+                        <input type="radio" name="specializare" value="egce"/>
+                        EGCE
+                    </label>
+                    <label>
+                        <input type="radio" name="specializare" value="fb"/>
+                        FB
+                    </label>
+                    <label>
+                        <input type="radio" name="specializare" value="ie"/>
+                        IE
+                    </label>
+                    <label>
+                        <input type="radio" name="specializare" value="mgm"/>
+                        MGM
+                    </label>
+                    <label>
+                        <input type="radio" name="specializare" value="mkt"/>
+                        MKT
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Materii facultative</legend>
+                    <label>
+                        <input type="checkbox" name="facultativ" value="structuri"/>Structuri de date
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="facultativ" value="marketing"/>Marketing online
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="facultativ" value="management"/>Managementul resurselor umane
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="facultativ" value="practica"/>Practica de specialitate
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="facultativ" value="spaniola"/>Limba spaniola
+                    </label><br>
+                </fieldset>
+                <label for="fisier">Ataseaza CV:</label>
+                <input type="file" id="fisier" name="fisier" accept>
+                <fieldset>
+                    <legend>Comentarii</legend>
+                    <textarea id="comentarii" name="comentarii" placeholder="Mesajul tau aici:"></textarea>
+                </fieldset>
+                <div class="btngrup">
+                    <button type="submit">Trimitere</button>
+                    <button type="reset">Resetare</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

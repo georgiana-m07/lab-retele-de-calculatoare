@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Spider-Man: No Way Home - Formular achiziționare bilete</title>
+    <link rel="stylesheet" href="proiect.css">
+</head>
+<body style="background-image: url('imagini/spiderman-wallpaper.jpeg');">
+    <!-- Antetul paginii -->
+    <header>
+        <h1>Spider-Man: No Way Home</h1>
+        <nav>
+            <ul>
+                <li><a href="proiect_acasa.html">Acasă</a></li>
+                <li><a href="proiect_descriere.html">Descriere</a></li>
+                <li><a href="proiect_imagini-video.html">Imagini și videoclipuri</a></li>
+                <li><a href="proiect_soundtrack.html">Soundtrack</a></li>
+                <li><a href="proiect_recenzii.html">Recenzii și comentarii</a></li>
+                <li><a href="proiect_formular.html">Formular bilete film</a></li>
+                <li><a href="proiect_tabel.html">Tabel XML</a></li>
+                <li><a href="proiect_interogari.html">Interogări</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Secțiunea "Formular bilete film" -->
+    <main>
+        <section id="formular">
+            <h2>Formular achiziționare bilete</h2>
+            <form action="procesare_formular.php" method="post">
+                <div class="form-group">
+                    <label for="nume">Nume:</label>
+                    <input type="text" id="nume" name="nume" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="numar_bilete">Număr bilete:</label>
+                    <input type="number" id="numar_bilete" name="numar_bilete" min="1" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="ora">Ora:</label>
+                    <select id="ora" name="ora" required>
+                        <option value="10:00">10:00</option>
+                        <option value="13:00">13:00</option>
+                        <option value="16:00">16:00</option>
+                        <option value="19:00">19:00</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="metoda_plata">Metoda de plată:</label>
+                    <select id="metoda_plata" name="metoda_plata" required>
+                        <option value="card">Card bancar</option>
+                        <option value="cash">Numerar</option>
+                        <option value="paypal">PayPal</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="submit" value="Achiziționează bilete">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

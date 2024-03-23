@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="proiect.xsl"?>
+<filme>
+    <film>
+        <titlu>Iron Man</titlu>
+        <regizor>Jon Favreau</regizor>
+        <an>2008</an>
+        <distributie>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Gwyneth Paltrow</actor>
+            <actor>Jeff Bridges</actor>
+            <actor>Terrence Howard</actor>
+        </distributie>
+        <descriere>Iron Man este un film de acțiune și aventură din 2008, regizat de Jon Favreau. Filmul prezintă povestea lui Tony Stark, un miliardar genial și playboy care devine supereroul cunoscut sub numele de Iron Man. După ce este răpit și forțat să construiască arme de distrugere în masă, Stark creează o armură avansată care îi conferă puteri extraordinare și îl ajută să lupte împotriva răului.</descriere>
+        <poster>ironman-poster.jpg</poster>
+        <imagini>
+            <imagine>ironman-image1.jpg</imagine>
+            <imagine>ironman-image2.jpg</imagine>
+            <imagine>ironman-image3.jpg</imagine>
+            <imagine>ironman-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/8hYlB38asDY</videoclip>
+            <videoclip>https://www.youtube.com/embed/KAE5ymVLmZg</videoclip>
+            <videoclip>https://www.youtube.com/embed/3ohjuLH4lqk</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Smith</autor>
+                <titlu>Un început senzațional</titlu>
+                <text>Iron Man este un început senzațional pentru franciza Marvel Cinematic Universe. Robert Downey Jr. oferă o interpretare carismatică a lui Tony Stark, iar acțiunea și umorul din film sunt excelente.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Maria Johnson</autor>
+                <titlu>Un supererou memorabil</titlu>
+                <text>Iron Man introduce unul dintre cei mai memorabili supereroi ai timpurilor moderne. Filmul are un ritm alert, iar performanțele lui Robert Downey Jr. și Jeff Bridges sunt remarcabile.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Robert Davis</autor>
+                <titlu>O poveste captivantă</titlu>
+                <text>Iron Man ne prezintă o poveste captivantă despre transformarea unui om obișnuit într-un supererou. Jon Favreau a reușit să creeze un film echilibrat, plin de acțiune și momente emoționante.</text>
+                <rating>4</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+
+    <film>
+        <titlu>Iron Man 2</titlu>
+        <regizor>Jon Favreau</regizor>
+        <an>2010</an>
+        <distributie>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Gwyneth Paltrow</actor>
+            <actor>Don Cheadle</actor>
+            <actor>Mickey Rourke</actor>
+        </distributie>
+        <descriere>Iron Man 2 este un film de acțiune și aventură din 2010, regizat de Jon Favreau. Filmul continuă povestea lui Tony Stark și a alter-ego-ului său, Iron Man. În această continuare, Stark se confruntă cu presiunea din partea guvernului de a dezvălui tehnologia din spatele armurii sale, în timp ce se luptă cu un inamic periculos, Whiplash.</descriere>
+        <poster>ironman2-poster.jpg</poster>
+        <imagini>
+            <imagine>ironman2-image1.jpg</imagine>
+            <imagine>ironman2-image2.jpg</imagine>
+            <imagine>ironman2-image3.jpg</imagine>
+            <imagine>ironman2-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/BoohRoVA9WQ</videoclip>
+            <videoclip>https://www.youtube.com/embed/cvVDTqZ3CSo</videoclip>
+            <videoclip>https://www.youtube.com/embed/QF12WIFqMYY</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Smith</autor>
+                <titlu>O continuare reușită</titlu>
+                <text>Iron Man 2 este o continuare reușită a primului film. Acțiunea este intensă, iar relația dintre Tony Stark și Pepper Potts adaugă un aspect emoțional interesant. Performanțele actorilor sunt excelente.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Maria Johnson</autor>
+                <titlu>Mai multă acțiune și suspans</titlu>
+                <text>Iron Man 2 aduce mai multă acțiune și suspans față de primul film. Interacțiunea dintre personaje este bine dezvoltată, iar efectele vizuale sunt impresionante.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Robert Davis</autor>
+                <titlu>O continuare satisfăcătoare</titlu>
+                <text>Iron Man 2 este o continuare satisfăcătoare a aventurilor lui Tony Stark. Deși poate nu strălucește la fel de mult ca primul film, are suficientă acțiune și umor pentru a-i mulțumi pe fanii seriei.</text>
+                <rating>3</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+
+    <film>
+        <titlu>Captain America: The First Avenger</titlu>
+        <regizor>Joe Johnston</regizor>
+        <an>2011</an>
+        <distributie>
+            <actor>Chris Evans</actor>
+            <actor>Hugo Weaving</actor>
+            <actor>Hayley Atwell</actor>
+            <actor>Sebastian Stan</actor>
+        </distributie>
+        <descriere>Captain America: The First Avenger este un film de acțiune și aventură din 2011, regizat de Joe Johnston. Filmul prezintă povestea lui Steve Rogers, un tânăr slăbănog și vulnerabil care devine supersoldatul Captain America în timpul celui de-al Doilea Război Mondial. El luptă împotriva organizației Hydra conduse de Johann Schmidt, cunoscut sub numele de Craniu Roșu.</descriere>
+        <poster>captainamerica-poster.jpg</poster>
+        <imagini>
+            <imagine>captainamerica-image1.jpg</imagine>
+            <imagine>captainamerica-image2.jpg</imagine>
+            <imagine>captainamerica-image3.jpg</imagine>
+            <imagine>captainamerica-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/-J3HfllvXWE</videoclip>
+            <videoclip>https://www.youtube.com/embed/JerVrbLldXw</videoclip>
+            <videoclip>https://www.youtube.com/embed/JerVrbLldXw</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Smith</autor>
+                <titlu>O poveste captivantă</titlu>
+                <text>Captain America: The First Avenger oferă o poveste captivantă despre curaj și sacrificiu. Chris Evans este remarcabil în rolul lui Steve Rogers, iar efectele speciale aduc la viață acțiunea din timpul războiului. Este un film esențial în universul Marvel.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Maria Johnson</autor>
+                <titlu>Eroul nostru</titlu>
+                <text>Captain America: The First Avenger este o călătorie emoționantă a unui tânăr care devine eroul nostru. Este un film plin de acțiune și aventură, cu o poveste puternică despre dreptate și loialitate. Hayley Atwell adaugă un plus de forță și inteligență ca agentul Peggy Carter.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Robert Davis</autor>
+                <titlu>Eroism înfățișător</titlu>
+                <text>Captain America: The First Avenger ne introduce în lumea eroismului înfățișător. Este o călătorie de la slăbiciune la putere, iar Hugo Weaving interpretează perfect rolul antagonistului Craniu Roșu. O peliculă care evidențiază importanța valorilor și a curajului.</text>
+                <rating>4</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+    
+    <film>
+        <titlu>Avengers</titlu>
+        <regizor>Joss Whedon</regizor>
+        <an>2012</an>
+        <distributie>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Chris Evans</actor>
+            <actor>Mark Ruffalo</actor>
+            <actor>Chris Hemsworth</actor>
+            <actor>Scarlett Johansson</actor>
+        </distributie>
+        <descriere>Avengers este un film de acțiune și aventură din 2012, regizat de Joss Whedon. Filmul adună împreună super-eroii Marvel, inclusiv Iron Man, Captain America, Hulk, Thor și Black Widow, într-o echipă de elită pentru a salva lumea de o amenințare cosmică. Ei se confruntă cu Loki, fratele lui Thor, care dorește să cucerească Pământul cu ajutorul unui artefact puternic.</descriere>
+        <poster>avengers-poster.jpg</poster>
+        <imagini>
+            <imagine>avengers-image1.jpg</imagine>
+            <imagine>avengers-image2.jpg</imagine>
+            <imagine>avengers-image3.jpg</imagine>
+            <imagine>avengers-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/eOrNdBpGMv8</videoclip>
+            <videoclip>https://www.youtube.com/embed/Ng_7jKGZPfA</videoclip>
+            <videoclip>https://www.youtube.com/embed/QwievZ1Tx-8</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Smith</autor>
+                <titlu>O aventură extraordinară</titlu>
+                <text>Avengers este o aventură extraordinară care îți taie respirația. Efectele vizuale sunt impresionante, iar acțiunea este nelimitată. Interacțiunea dintre personaje este plină de umor și tensiune. Este un must-see pentru orice fan Marvel.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Maria Johnson</autor>
+                <titlu>Echipa perfectă</titlu>
+                <text>Avengers aduce împreună super-eroii preferați într-o echipă perfectă. Fiecare personaj are momentele sale de strălucire și contribuie la povestea captivantă. Filmul te ține cu sufletul la gură de la început până la sfârșit.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Robert Davis</autor>
+                <titlu>Un univers expansiv</titlu>
+                <text>Avengers deschide ușa către un univers expansiv al super-eroilor Marvel. Este uimitor să vezi aceste personaje iconice reunite și să le vezi luptându-se împreună împotriva răului. Este un film care a redefinit genul de super-eroi.</text>
+                <rating>5</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+    
+    <film>
+        <titlu>Iron Man 3</titlu>
+        <regizor>Shane Black</regizor>
+        <an>2013</an>
+        <distributie>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Gwyneth Paltrow</actor>
+            <actor>Ben Kingsley</actor>
+            <actor>Don Cheadle</actor>
+        </distributie>
+        <descriere>Iron Man 3 este un film de acțiune și aventură din 2013, regizat de Shane Black. Filmul continuă povestea lui Tony Stark, interpretat de Robert Downey Jr., în lupta sa împotriva răului. De data aceasta, el se confruntă cu un dușman puternic numit Mandarina și trebuie să-și pună la încercare abilitățile și inteligența pentru a-și proteja cei dragi și a înfrunta amenințarea.</descriere>
+        <poster>ironman3-poster.jpg</poster>
+        <imagini>
+            <imagine>ironman3-image1.jpg</imagine>
+            <imagine>ironman3-image2.jpg</imagine>
+            <imagine>ironman3-image3.jpg</imagine>
+            <imagine>ironman3-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/Ke1Y3P9D0Bc</videoclip>
+            <videoclip>https://www.youtube.com/embed/Ql5MnQv6jf4</videoclip>
+            <videoclip>https://www.youtube.com/embed/5EjG-1U3wqA</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Smith</autor>
+                <titlu>O continuare captivantă</titlu>
+                <text>Iron Man 3 este o continuare captivantă a aventurilor lui Tony Stark. Filmul oferă o combinație reușită între acțiune, umor și dramă, iar Robert Downey Jr. se află în vârful formei în interpretarea sa carismatică.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Maria Johnson</autor>
+                <titlu>O explozie de efecte speciale</titlu>
+                <text>Efectele speciale din Iron Man 3 sunt impresionante. Luptele și secvențele de acțiune sunt spectaculoase, iar performanța lui Ben Kingsley în rolul lui Mandarina este remarcabilă. Un film ce nu trebuie ratat de fanii Marvel.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Robert Davis</autor>
+                <titlu>O poveste emoționantă</titlu>
+                <text>Iron Man 3 ne prezintă o poveste emoționantă în care Tony Stark se confruntă cu propriile temeri și demoni interiori. Gwyneth Paltrow adaugă profunzime personajului Pepper Potts, iar filmul oferă un final satisfăcător pentru trilogia Iron Man.</text>
+                <rating>4</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+
+    <film>
+        <titlu>Captain America: The Winter Soldier</titlu>
+        <regizor>Anthony Russo, Joe Russo</regizor>
+        <an>2014</an>
+        <distributie>
+            <actor>Chris Evans</actor>
+            <actor>Scarlett Johansson</actor>
+            <actor>Sebastian Stan</actor>
+            <actor>Anthony Mackie</actor>
+        </distributie>
+        <descriere>Captain America: The Winter Soldier este un film de acțiune și thriller politic din 2014, regizat de Anthony Russo și Joe Russo. Filmul urmărește aventurile lui Steve Rogers, cunoscut sub numele de Captain America, în timp ce se confruntă cu intrigi politice și amenințări neașteptate. El se aliază cu Văduva Neagră și Fălci pentru a dezvălui o conspirație periculoasă care amenință să schimbe cursul istoriei.</descriere>
+        <poster>captainamericawintersoldier-poster.jpg</poster>
+        <imagini>
+            <imagine>captainamericawintersoldier-image1.jpg</imagine>
+            <imagine>captainamericawintersoldier-image2.jpg</imagine>
+            <imagine>captainamericawintersoldier-image3.jpg</imagine>
+            <imagine>captainamericawintersoldier-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/7SlILk2WMTI</videoclip>
+            <videoclip>https://www.youtube.com/embed/tbayiPxkUMM</videoclip>
+            <videoclip>https://www.youtube.com/embed/mnm9xIu2-x8</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Smith</autor>
+                <titlu>O explozie de acțiune</titlu>
+                <text>Captain America: The Winter Soldier este o explozie de acțiune. Scenele de luptă sunt extraordinare, iar povestea captivantă îți ține respirația. Chris Evans și Scarlett Johansson dau viață personajelor lor cu carismă și determinare.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Maria Johnson</autor>
+                <titlu>O intriga plină de suspans</titlu>
+                <text>Filmul Captain America: The Winter Soldier ne oferă o intriga plină de suspans și răsturnări de situație neașteptate. Performanțele actorilor sunt remarcabile, iar Sebastian Stan impresionează în rolul Soldatului Iernii.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Robert Davis</autor>
+                <titlu>O poveste captivantă</titlu>
+                <text>Captain America: The Winter Soldier este o poveste captivantă despre sacrificiu și loialitate. Efectele speciale și secvențele de acțiune sunt impresionante, iar regizorii Anthony Russo și Joe Russo reușesc să creeze o atmosferă tensionată și plină de suspans.</text>
+                <rating>4</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+
+    <film>
+        <titlu>Avengers: Age of Ultron</titlu>
+        <regizor>Joss Whedon</regizor>
+        <an>2015</an>
+        <distributie>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Chris Evans</actor>
+            <actor>Mark Ruffalo</actor>
+            <actor>Chris Hemsworth</actor>
+            <actor>Scarlett Johansson</actor>
+            <actor>Jeremy Renner</actor>
+        </distributie>
+        <descriere>Avengers: Age of Ultron este un film de acțiune și aventură din 2015, regizat de Joss Whedon. Echipa de supereroi Avengers se reunește pentru a lupta împotriva unui inamic periculos, Ultron, o inteligență artificială malefică care amenință să distrugă omenirea. În această continuare epică, eroii se confruntă cu noi provocări și alianțe neașteptate.</descriere>
+        <poster>avengers-ageofultron-poster.jpg</poster>
+        <imagini>
+            <imagine>avengers-ageofultron-image1.jpg</imagine>
+            <imagine>avengers-ageofultron-image2.jpg</imagine>
+            <imagine>avengers-ageofultron-image3.jpg</imagine>
+            <imagine>avengers-ageofultron-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/tmeOjFno6Do</videoclip>
+            <videoclip>https://www.youtube.com/embed/JAUoeqvedMo</videoclip>
+            <videoclip>https://www.youtube.com/embed/MZoO8QVMxkk</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Smith</autor>
+                <titlu>Un film impresionant</titlu>
+                <text>Avengers: Age of Ultron este un film impresionant, plin de acțiune și efecte speciale spectaculoase. Echipa de actori oferă performanțe excelente, iar povestea este captivantă de la început până la sfârșit.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Maria Johnson</autor>
+                <titlu>O continuare epică</titlu>
+                <text>Această continuare a filmului Avengers aduce o poveste epică și momente de tensiune remarcabile. Personajele sunt bine dezvoltate, iar efectele vizuale sunt uimitoare.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Robert Davis</autor>
+                <titlu>Mai multă acțiune și mai multe personaje</titlu>
+                <text>Avengers: Age of Ultron adaugă mai multă acțiune și mai multe personaje în universul Marvel. Este o experiență cinematografică intensă și plină de adrenalina, care nu dezamăgește fanii seriei.</text>
+                <rating>4</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+
+    <film>
+        <titlu>Captain America: Civil War</titlu>
+        <regizor>Anthony Russo, Joe Russo</regizor>
+        <an>2016</an>
+        <distributie>
+            <actor>Chris Evans</actor>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Scarlett Johansson</actor>
+            <actor>Sebastian Stan</actor>
+        </distributie>
+        <descriere>Captain America: Civil War este un film de acțiune și aventură din 2016, regizat de Anthony Russo și Joe Russo. Filmul prezintă un conflict epic între Captain America și Iron Man, pe fondul unor dezacorduri legate de politica guvernului privind supervedetele. Eroi din întreg universul Marvel se alătură taberelor adversare, rezultând o bătălie intensă și consecințe devastatoare.</descriere>
+        <poster>captain-america-civil-war-poster.jpg</poster>
+        <imagini>
+            <imagine>captain-america-civil-war-image1.jpg</imagine>
+            <imagine>captain-america-civil-war-image2.jpg</imagine>
+            <imagine>captain-america-civil-war-image3.jpg</imagine>
+            <imagine>captain-america-civil-war-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/dKrVegVI0Us</videoclip>
+            <videoclip>https://www.youtube.com/embed/uVdV-lxRPFo</videoclip>
+            <videoclip>https://www.youtube.com/embed/FkTybqcX-Yo</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>Mark Johnson</autor>
+                <titlu>O bătălie epocală</titlu>
+                <text>Captain America: Civil War aduce o bătălie epocală între super-eroi. Filmul pune la încercare loialitățile personajelor și adaugă noi nuanțe în povestea Marvel. Efectele vizuale sunt impresionante, iar momentele de acțiune sunt pline de adrenalină. O recomandare pentru fanii de filme de super-eroi.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Sarah Adams</autor>
+                <titlu>Un punct de cotitură</titlu>
+                <text>Captain America: Civil War marchează un punct de cotitură în universul Marvel. Bătălia dintre eroi și dezacordurile politice creează un climat tensionat și emoționant. Actorii fac o treabă excelentă în a-și aduce personajele la viață, iar povestea este plină de surprize și răsturnări de situație.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Michael Roberts</autor>
+                <titlu>Un film complex și captivant</titlu>
+                <text>Captain America: Civil War este un film complex și captivant, care explorează dileme etice și personale ale super-eroilor. Scenele de acțiune sunt spectaculoase, iar tensiunea dintre personaje este palpabilă. Este o peliculă care îți lasă o impresie puternică și te face să te gândești la implicațiile acțiunilor lor.</text>
+                <rating>5</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+    
+    <film>
+        <titlu>Spider-Man: Homecoming</titlu>
+        <regizor>Jon Watts</regizor>
+        <an>2017</an>
+        <distributie>
+            <actor>Tom Holland</actor>
+            <actor>Michael Keaton</actor>
+            <actor>Zendaya</actor>
+            <actor>Robert Downey Jr.</actor>
+        </distributie>
+        <descriere>Spider-Man: Homecoming este un film de acțiune și aventură din 2017, regizat de Jon Watts. Filmul îl prezintă pe Peter Parker (Spider-Man) în timpul adolescenței, încercând să-și gestioneze atât viața de super-erou, cât și viața de elev. El se confruntă cu un nou răufăcător, Vulture, și primește sprijinul mentorului său, Tony Stark (Iron Man).</descriere>
+        <poster>spiderman-homecoming-poster.jpg</poster>
+        <imagini>
+            <imagine>spiderman-homecoming-image1.jpg</imagine>
+            <imagine>spiderman-homecoming-image2.jpg</imagine>
+            <imagine>spiderman-homecoming-image3.jpg</imagine>
+            <imagine>spiderman-homecoming-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/n9DwoQ7HWvI</videoclip>
+            <videoclip>https://www.youtube.com/embed/8wNgphPi5VM</videoclip>
+            <videoclip>https://www.youtube.com/embed/1F9q6z8tMgg</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>Emily Johnson</autor>
+                <titlu>O aventură plină de adrenalină</titlu>
+                <text>Spider-Man: Homecoming este un film captivant. Acțiunea este alertă, iar interpretarea lui Tom Holland în rolul lui Peter Parker este remarcabilă. Chimia dintre personaje este excelentă, iar efectele vizuale sunt impresionante. Un film pe care îl recomand tuturor fanilor de super-eroi.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Michael Thompson</autor>
+                <titlu>O introducere reușită</titlu>
+                <text>Spider-Man: Homecoming oferă o introducere reușită a personajului Spider-Man în universul Marvel. Povestea se concentrează pe latura adolescentină a eroului, ceea ce adaugă un plus de autenticitate. Un film distractiv și plin de momente memorabile.</text>
+                <rating>3</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+    
+    <film>
+        <titlu>Avengers: Infinity War</titlu>
+        <regizor>Anthony Russo, Joe Russo</regizor>
+        <an>2018</an>
+        <distributie>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Chris Hemsworth</actor>
+            <actor>Mark Ruffalo</actor>
+            <actor>Chris Evans</actor>
+            <actor>Scarlett Johansson</actor>
+            <actor>Jeremy Renner</actor>
+        </distributie>
+        <descriere>Avengers: Infinity War este un film de acțiune și aventură din 2018, regizat de Anthony și Joe Russo. În acest film, supereroii Marvel se unesc pentru a lupta împotriva lui Thanos, un răufăcător puternic care caută să obțină cele șase Pietre ale Infinitului și să distrugă jumătate din univers. Filmul aduce împreună numeroase personaje îndrăgite din universul Marvel.</descriere>
+        <poster>avengers-infinitywar-poster.jpg</poster>
+        <imagini>
+            <imagine>avengers-infinitywar-image1.jpg</imagine>
+            <imagine>avengers-infinitywar-image2.jpg</imagine>
+            <imagine>avengers-infinitywar-image3.jpg</imagine>
+            <imagine>avengers-infinitywar-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/6ZfuNTqbHE8</videoclip>
+            <videoclip>https://www.youtube.com/embed/9LPlVU7x1ps</videoclip>
+            <videoclip>https://www.youtube.com/embed/QwievZ1Tx-8</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Smith</autor>
+                <titlu>Un film impresionant</titlu>
+                <text>Avengers: Infinity War este un film impresionant, plin de acțiune și momente emoționante. Efectele vizuale sunt uimitoare, iar interpretările actorilor sunt excelente. O recomandare pentru fanii universului Marvel.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Maria Johnson</autor>
+                <titlu>O continuare epică</titlu>
+                <text>Această continuare a filmelor Avengers aduce o poveste complexă și impactantă. Lupta împotriva lui Thanos este plină de suspans, iar finalul lasă spectatorii cu sufletul la gură. Un film ce nu trebuie ratat de fanii seriei.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Robert Davis</autor>
+                <titlu>Mai multe personaje, mai multă acțiune</titlu>
+                <text>Avengers: Infinity War aduce împreună o mulțime de personaje din universul Marvel, oferind o experiență cinematografică plină de acțiune și emoție. Efectele speciale sunt remarcabile, iar povestea ține spectatorul în suspans de la început până la sfârșit.</text>
+                <rating>4</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+    
+    <film>
+        <titlu>Spider-Man: Far From Home</titlu>
+        <regizor>Jon Watts</regizor>
+        <an>2019</an>
+        <distributie>
+            <actor>Tom Holland</actor>
+            <actor>Zendaya</actor>
+            <actor>Samuel L. Jackson</actor>
+            <actor>Jake Gyllenhaal</actor>
+        </distributie>
+        <descriere>Spider-Man: Far From Home este un film de acțiune și aventură din 2019, regizat de Jon Watts. Filmul îl urmărește pe Peter Parker (Spider-Man) într-o excursie școlară în Europa, unde se confruntă cu noile amenințări ale lui Mysterio. Peter trebuie să-și asume responsabilitățile de super-erou și să-și gestioneze viața personală în același timp.</descriere>
+        <poster>spiderman-far-from-home-poster.jpg</poster>
+        <imagini>
+            <imagine>spiderman-far-from-home-image1.jpg</imagine>
+            <imagine>spiderman-far-from-home-image2.jpg</imagine>
+            <imagine>spiderman-far-from-home-image3.jpg</imagine>
+            <imagine>spiderman-far-from-home-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/DYYtuKyMtY8</videoclip>
+            <videoclip>https://www.youtube.com/embed/Nt9L1jCKGnE</videoclip>
+            <videoclip>https://www.youtube.com/embed/OXn0pWeshEk</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>Emma Wilson</autor>
+                <titlu>O continuare captivantă</titlu>
+                <text>Spider-Man: Far From Home este o continuare captivantă a aventurilor lui Peter Parker. Filmul oferă momente de acțiune spectaculoase și un nou antagonist interesant în personajul lui Mysterio. Tom Holland se remarcă din nou în rolul lui Spider-Man. Recomand cu căldură acest film.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>David Thompson</autor>
+                <titlu>O călătorie palpitantă</titlu>
+                <text>Spider-Man: Far From Home ne duce într-o călătorie palpitantă prin Europa alături de Peter Parker. Chimia dintre actori este excelentă, iar efectele vizuale sunt impresionante. Filmul adaugă și câteva momente emoționante și surprinzătoare în poveste. Un film pe care îl recomand fanilor de super-eroi.</text>
+                <rating>4</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+    
+    <film>
+        <titlu>Avengers: Endgame</titlu>
+        <regizor>Anthony Russo, Joe Russo</regizor>
+        <an>2019</an>
+        <distributie>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Chris Evans</actor>
+            <actor>Mark Ruffalo</actor>
+            <actor>Chris Hemsworth</actor>
+        </distributie>
+        <descriere>Avengers: Endgame este un film de acțiune și aventură din 2019, regizat de Anthony Russo și Joe Russo. Filmul prezintă ultima bătălie a supereroilor din universul Marvel împotriva lui Thanos. După evenimentele devastatoare din Avengers: Infinity War, eroii rămași în viață se reunesc și încearcă să găsească o modalitate de a readuce în viață jumătatea de populație a universului.</descriere>
+        <poster>avengers-poster.jpg</poster>
+        <imagini>
+            <imagine>avengers-image1.jpg</imagine>
+            <imagine>avengers-image2.jpg</imagine>
+            <imagine>avengers-image3.jpg</imagine>
+            <imagine>avengers-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/TcMBFSGVi1c</videoclip>
+            <videoclip>https://www.youtube.com/embed/hA6hldpSTF8</videoclip>
+            <videoclip>https://www.youtube.com/embed/8ugaeA-nMTc</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Anderson</autor>
+                <titlu>Un final epic</titlu>
+                <text>Avengers: Endgame este un film fenomenal. Acțiunea este plină de suspans, iar povestea are o adâncime emoțională remarcabilă. Eroii Marvel se reunesc pentru a lupta împotriva lui Thanos într-o bătălie impresionantă. Este un film care nu trebuie ratat de niciun fan al universului Marvel.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Sarah Thompson</autor>
+                <titlu>O călătorie emoționantă</titlu>
+                <text>Avengers: Endgame este un capitol încheiat într-o călătorie de neuitat. Eroii își găsesc puterea interioară și se sacrifică pentru a aduce echilibrul în univers. Finalul este emoționant și plin de momente memorabile. Un film remarcabil și o concluzie perfectă pentru saga Avengers.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Michael Johnson</autor>
+                <titlu>Un blockbuster remarcabil</titlu>
+                <text>Avengers: Endgame este unul dintre cele mai mari blockbustere din istorie. Acțiunea este explozivă, iar distribuția este impresionantă. Regizorii au reușit să îmbine perfect momentele de acțiune cu emoția și umorul. Este un film care va rămâne în memoria spectatorilor pentru mult timp.</text>
+                <rating>4</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+
+    <film>
+        <titlu>Spider-Man: No Way Home</titlu>
+        <regizor>Jon Watts</regizor>
+        <an>2021</an>
+        <distributie>
+            <actor>Tom Holland</actor>
+            <actor>Zendaya</actor>
+            <actor>Benedict Cumberbatch</actor>
+            <actor>Willem Dafoe</actor>
+        </distributie>
+        <descriere>Spider-Man: No Way Home este un film de acțiune și aventură din 2021, regizat de Jon Watts și produs de Kevin Feige. Filmul este o continuare a peliculelor Spider-Man: Homecoming din 2017 și Spider-Man: Far From Home din 2019, fiind al treilea film din seria Spider-Man din cadrul francizei Marvel Cinematic Universe.</descriere>
+        <poster>spiderman-poster.jpg</poster>
+        <imagini>
+            <imagine>spiderman-image1.jpg</imagine>
+            <imagine>spiderman-image2.jpg</imagine>
+            <imagine>spiderman-image3.jpg</imagine>
+            <imagine>spiderman-image4.jpg</imagine>
+        </imagini>
+        <videoclipuri>
+            <videoclip>https://www.youtube.com/embed/rt-2cxAiPJk</videoclip>
+            <videoclip>https://www.youtube.com/embed/6T8Qd7e8_-k</videoclip>
+            <videoclip>https://www.youtube.com/embed/g4Hbz2jLxvQ</videoclip>
+        </videoclipuri>
+        <recenzii>
+            <recenzie>
+                <autor>John Smith</autor>
+                <titlu>Un film epocal</titlu>
+                <text>Aceasta este o recenzie despre Spider-Man: No Way Home. Filmul este pur și simplu fantastic! Acțiunea este captivantă, iar interpretarea actorilor este excelentă. Recomand cu căldură acest film tuturor fanilor de super-eroi.</text>
+                <rating>5</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Maria Johnson</autor>
+                <titlu>O capodoperă cinematografică</titlu>
+                <text>Spider-Man: No Way Home este unul dintre cele mai bune filme din seria Spider-Man. Efectele vizuale sunt uimitoare, iar povestea te ține cu sufletul la gură. Tom Holland se evidențiază în rolul lui Spider-Man, oferind o interpretare impresionantă.</text>
+                <rating>4</rating>
+            </recenzie>
+            <recenzie>
+                <autor>Robert Davis</autor>
+                <titlu>Surprinzător și emoționant</titlu>
+                <text>Am fost plăcut surprins de Spider-Man: No Way Home. Povestea este captivantă, iar întâlnirea dintre diferitele versiuni ale lui Spider-Man a fost emoționantă. Este un film care nu trebuie ratat de niciun fan al universului Marvel.</text>
+                <rating>4</rating>
+            </recenzie>
+        </recenzii>
+    </film>
+</filme>

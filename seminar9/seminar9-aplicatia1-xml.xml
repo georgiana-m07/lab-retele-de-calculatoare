@@ -1,0 +1,15 @@
+<asociatie>
+    <apartament>
+        <nr>1</nr>
+        <proprietar>Popescu</proprietar>
+        <nr_camere>3</nr_camere>
+        <suprafata_totala>45 metrii patrati</suprafata_totala>
+    </apartament>
+
+    <apartament>
+        <nr>1</nr>
+        <proprietar>Popescu</proprietar>
+        <nr_camere>3</nr_camere>
+        <suprafata_totala>45 metrii patrati</suprafata_totala>
+    </apartament>
+</asociatie>

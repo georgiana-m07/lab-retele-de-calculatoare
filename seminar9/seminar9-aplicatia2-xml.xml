@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="seminar9-aplicatia2-eachBnr.xsl" ?>
+<!-- Fisierul continind informatii despre variata cursului valutar  pentru mai multe monede, intr-o anumita perioada de timp -->
+<cursBNR cursvalutar="Variatia cursului valutar">
+	<moneda nume="Euro">
+		<curs data="24.04.2023">4.70 </curs>
+		<curs data="25.04.2023">4.68 </curs>
+		<curs data="26.04.2023">4.65 </curs>
+		<curs data="27.04.2023">4.62 </curs>
+		<curs data="28.04.2023">4.61 </curs>
+	</moneda>
+	<moneda nume="Dolar">
+		<curs data="24.04.2023">4.20 </curs>
+		<curs data="25.04.2023">4.10 </curs>
+		<curs data="26.04.2023">4.15 </curs>
+		<curs data="27.04.2023">4.12 </curs>
+		<curs data="28.04.2023">4.11 </curs>
+	</moneda>
+	<moneda nume="Lira">
+		<curs data="24.04.2023">5.80 </curs>
+		<curs data="25.04.2023">5.78 </curs>
+		<curs data="26.04.2023">5.75 </curs>
+		<curs data="27.04.2023">5.72 </curs>
+		<curs data="28.04.2023">5.71 </curs>
+	</moneda>
+</cursBNR>

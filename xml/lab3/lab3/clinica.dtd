@@ -1,0 +1,17 @@
+<!-- DTD definind tipul de document 'clinica' -->
+<!ELEMENT clinica 	(departament+)>
+<!ELEMENT departament 	(medic+,asistent+)>
+<!ELEMENT medic 	(nume*,prenume*, titulatura?)>
+<!ELEMENT nume 		(#PCDATA)>
+<!ELEMENT prenume	(#PCDATA)>
+<!ELEMENT titulatura (#PCDATA)>
+<!ELEMENT asistent 	(nume*,prenume*)>
+
+<!ATTLIST clinica
+      nume 	CDATA		#REQUIRED
+      oras	CDATA		#IMPLIED
+      tip	CDATA		#REQUIRED
+>      
+<!ATTLIST departament 
+      denumire 	CDATA 		#REQUIRED
+>

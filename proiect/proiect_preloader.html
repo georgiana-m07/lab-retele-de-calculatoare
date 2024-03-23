@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Preloader</title>
+    <style>
+        /* Stiluri pentru preloader */
+        .preloader {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+        
+        .preloader img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .preloader button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="preloader">
+        <img src="imagini/spiderman-loader.gif" alt="Preloader">
+        <button onclick="redirectToHomePage()">Pow!</button>
+    </div>
+    
+    <script>
+        function redirectToHomePage() {
+            window.location.href = "proiect_acasa.html";
+        }
+    </script>
+</body>
+</html>

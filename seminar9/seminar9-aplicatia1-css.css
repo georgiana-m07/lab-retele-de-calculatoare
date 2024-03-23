@@ -1,0 +1,39 @@
+
+#listing {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+    
+  .nr {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+  }
+  
+  .proprietar {
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: #663300;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    padding: 0.4em;
+    
+  }
+     
+  .nr_camere {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-align: right;
+    margin-bottom: 1em;
+  }
+  
+  .suprafata_totala {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-align: right;
+    margin-bottom: 1em;
+  }
+  
+  li {
+    margin-left: -2em;
+  } 

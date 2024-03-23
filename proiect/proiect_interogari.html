@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns:h="http://www.w3.org/1999/xhtml" xmlns:medical="http://127.0.0.1/cabinetmedical">
+<head>
+    <meta charset="UTF-8">
+    <title>Spider-Man: No Way Home</title>
+    <link rel="stylesheet" href="proiect.css">
+</head>
+<body style="background-image: url('imagini/spiderman-wallpaper.jpeg');">
+    <!-- Antetul paginii -->
+    <header>
+        <h1>Spider-Man: No Way Home</h1>
+        <nav>
+            <ul>
+                <li><a href="proiect_acasa.html">Acasă</a></li>
+                <li><a href="proiect_descriere.html">Descriere</a></li>
+                <li><a href="proiect_imagini-video.html">Imagini și videoclipuri</a></li>
+                <li><a href="proiect_soundtrack.html">Soundtrack</a></li>
+                <li><a href="proiect_recenzii.html">Recenzii și comentarii</a></li>
+                <li><a href="proiect_formular.html">Formular bilete film</a></li>
+                <li><a href="proiect_tabel.html">Tabel XML</a></li>
+                <li><a href="proiect_interogari.html">Interogări</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Interogarea 1: Titlul filmului</h3>
+        <h:ul> {
+            for $film in doc("proiect.xml")//film
+            return <h:li>{$film/titlu}</h:li>
+        }
+        </h:ul>
+        
+        <h3>Interogarea 2: Anul și regizorii filmelor:</h3>
+        <h:ul> {
+            for $film in doc("proiect.xml")//film
+            return <h:li>{concat("Titlu: ", $film/titlu, ", An: ", $film/an, ", Regizor: ", $film/regizor)}</h:li>
+        }
+        </h:ul>
+
+        <h3>Interogarea 3: Distribuția filmului</h3>
+        <h:ul> {
+            for $actor in doc("proiect.xml")//film[./titlu = "Spider-Man: No Way Home"]/distributie/actor
+            return <h:li>{$actor}</h:li>
+        }
+        </h:ul>
+
+        <h3>Interogarea 4: Descrierea filmului cu cel mai recent an de lansare</h3>
+        <h:ul> {
+            let $an-max := max(doc("proiect.xml")//film/an)
+            return <h:li>{doc("proiect.xml")//film[./an = $an-max]/descriere}</h:li>
+        }
+        </h:ul>
+
+        <h3>Interogarea 5: Actorii care au jucat în cel puțin 3 filme</h3>
+        <h:ul> {
+            for $actor in distinct-values(doc("proiect.xml")//actor)
+            let $numar-filme := count(doc("proiect.xml")//film[distributie/actor = $actor])
+            where $numar-filme >= 3
+            return <h:li>{$actor}</h:li>
+        }
+        </h:ul>
+
+        <h3>Interogarea 6: Titlurile filmelor în ordine alfabetică inversă</h3>
+        <h:ul> {
+            for $film in reverse(doc("proiect.xml")//film)
+            return <h:li>{$film/titlu}</h:li>
+        }
+        </h:ul>
+
+        <h3>Interogarea 7: Recenzii cu rating egal cu 5</h3>
+        <h:ul> {
+            for $recenzie in doc("proiect.xml")//recenzie
+            let $rating := xs:integer($recenzie/rating)
+            where $rating = 5
+            return <h:li>{concat("Autor: ", $recenzie/autor, ", Titlu: ", $recenzie/titlu)}</h:li>
+        }
+        </h:ul>
+
+        <h3>Interogarea 8: Numele regizorilor și anul filmelor pe care le-au regizat</h3>
+        <h:ul> {
+            for $film in doc("proiect.xml")//film
+            return <h:li>{concat("Regizor: ", $film/regizor, ", An: ", $film/an)}</h:li>
+        }
+        </h:ul>
+
+        <h3>Interogarea 9: Numărul total de filme din XML</h3>
+        count(doc("proiect.xml")//film)
+        
+        <h3>Interogarea 10: Numărul de recenzii cu ratingul de 4</h3>
+        <h:ul> {
+            let $numar-recenzii := count(doc("proiect.xml")//recenzie[rating = 4])
+            return <h:li>{concat("Număr recenzii rating 4: ", $numar-recenzii)}</h:li>
+        }
+        </h:ul>
+    </main>
+</body>
+</html>

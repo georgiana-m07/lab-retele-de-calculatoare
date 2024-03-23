@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<studenti master="SIA">
+	<student>
+	<numepreunume>Farcas Adrian</numepreunume>
+		<nota materie="Finante">9</nota>
+		<nota materie="Drept">10</nota>
+		<nota materie="Marketing">8</nota>
+		<nota materie="Tehnologii">10</nota>
+	</student>
+	<student>
+	<numepreunume>Hapenuc Roxana</numepreunume>
+		<nota materie="Finante">10</nota>
+		<nota materie="Drept">7</nota>
+		<nota materie="Marketing">9</nota>
+		<nota materie="Tehnologii">8</nota>
+	</student>
+	<student>
+	<numepreunume>Abromivici Theia</numepreunume>
+		<nota materie="Finante">8</nota>
+		<nota materie="Drept">7</nota>
+		<nota materie="Marketing">10</nota>
+		<nota materie="Tehnologii">9</nota>>
+	</student>
+	<student>
+	<numepreunume>Borchescu Adela</numepreunume>
+		<nota materie="Finante">9</nota>
+		<nota materie="Drept">10</nota>
+		<nota materie="Marketing">9</nota>
+		<nota materie="Tehnologii">8</nota>
+	</student>
+	<student>
+	<numepreunume>Truica Marian</numepreunume>
+		<nota materie="Finante">9</nota>
+		<nota materie="Drept">8</nota>
+		<nota materie="Marketing">10</nota>
+		<nota materie="Tehnologii">10</nota>
+	</student>
+</studenti>

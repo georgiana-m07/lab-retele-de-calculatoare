@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="14.2">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="cursBNR.xpr">
+        <file name="cursBNR.xml"/>
+        <file name="cursMEDIUfranc.xsl"/>
+        <file name="minimBNR.xsl"/>
+        <file name="maximBNR.xsl"/>
+        <file name="eachBNR.xsl"/>
+    </projectTree>
+</project>

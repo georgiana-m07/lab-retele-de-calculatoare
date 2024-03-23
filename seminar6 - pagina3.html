@@ -1,0 +1,132 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey</title>
+        <style>
+            body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              background-color: darkolivegreen;
+            }
+            h1 {
+              text-align: center;
+            }
+            form {
+              margin: 0 auto;
+              max-width: 600px;
+              padding: 20px;
+              border: 1px solid #ccc;
+              border-radius: 10px;
+            }
+            label {
+              display: block;
+              margin-bottom: 10px;
+              font-weight: bold;
+            }
+            input[type="text"] {
+              width: 100%;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              margin-bottom: 20px;
+            }
+            input[type="submit"] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+            }
+            input[type="submit"]:hover {
+              background-color: #3e8e41;
+            }
+            
+            legend {
+              background-color: antiquewhite;
+            }
+
+            fieldset {
+              background-color: antiquewhite;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Chestionar</h1>
+        <form>
+            <!-- Pagina 1 -->
+		    <fieldset>
+          <div class="page page-3"></div>
+			      <legend>Intrebare 21-30</legend>
+          
+			        <p>Care este culoarea ta preferata?</p>
+			        <input type="radio" name="culoare" value="rosu">Rosu<br>
+			        <input type="radio" name="culoare" value="albastru">Albastru<br>
+			        <input type="radio" name="culoare" value="galben">Galben<br>
+			        <input type="radio" name="culoare" value="alta">Alta: <input type="text" name="desen_preferat_other"><br>
+                
+              <p>Cat de des faci exercitii?</p>
+			        <input type="radio" name="exercitii" value="zilnic">Zilnic<br>
+			        <input type="radio" name="exercitii" value="trei_patru">3-4 ori/saptamana<br>
+			        <input type="radio" name="exercitii" value="o_data">O data pe saptamana<br>
+              <input type="radio" name="exercitii" value="rar">Rar<br>
+			        <input type="radio" name="exercitii" value="niciodata">Niciodata<br>
+                
+              <p>Ce aplicatii de social media folosesti?</p>
+			        <input type="radio" name="platforma" value="facebook">Facebook<br>
+			        <input type="radio" name="platforma" value="twitter">Twitter<br>
+			        <input type="radio" name="platforma" value="tiktok">TikTok<br>
+			        <input type="radio" name="platforma" value="alta">Alta: <input type="text" name="desen_preferat_other"><br>
+                    
+              <p>Ce bautura preferi?</p>
+			        <input type="radio" name="bautura" value="ceai">Ceai<br>
+			        <input type="radio" name="bautura" value="cafea">Cafea<br>
+			        <input type="radio" name="bautura" value="suc">Suc<br>
+			        <input type="radio" name="bautura" value="alta">Alta: <input type="text" name="desen_preferat_other"><br>
+
+              <p>Cu ce mijloc de transport ajungi la facultate/job?</p>
+			        <input type="radio" name="transport" value="masina">Masina<br>
+			        <input type="radio" name="transport" value="autobuz">Autobuz<br>
+			        <input type="radio" name="transport" value="bicicleta">Bicicleta<br>
+			        <input type="radio" name="transport" value="alta">Alta: <input type="text" name="desen_preferat_other"><br>
+
+              <p>Care este mancarea ta preferata?</p>
+			        <input type="radio" name="mancare" value="pizza">Pizza<br>
+			        <input type="radio" name="mancare" value="paste">Paste<br>
+			        <input type="radio" name="mancare" value="burger">Burger<br>
+			        <input type="radio" name="mancare" value="alta">Alta: <input type="text" name="desen_preferat_other"><br>
+
+              <p>Care este anotimpul tau preferat?</p>
+			        <input type="radio" name="anotimp" value="primavara">Primavara<br>
+			        <input type="radio" name="anotimp" value="vara">Vara<br>
+			        <input type="radio" name="anotimp" value="toamna">Toamna<br>
+              <input type="radio" name="anotimp" value="iarna">Iarna<br>
+
+              <p>Care este genul tau muzical preferat?</p>
+			        <input type="radio" name="muzica" value="pop">Pop<br>
+			        <input type="radio" name="muzica" value="rock">Rock<br>
+			        <input type="radio" name="muzica" value="hiphop">HipHop<br>
+			        <input type="radio" name="muzica" value="alta">Alta: <input type="text" name="desen_preferat_other"><br>
+
+              <p>Cat de des citesti?</p>
+			        <input type="radio" name="citit" value="zilnic">Zilnic<br>
+			        <input type="radio" name="citit" value="saptamanal">Saptamanal<br>
+			        <input type="radio" name="citit" value="lunar">Lunar<br>
+			        <input type="radio" name="citit" value="alta">Alta: <input type="text" name="desen_preferat_other"><br>
+
+              <p>Care este animalul tau preferat?</p>
+			        <input type="radio" name="animal" value="caine">Caine<br>
+			        <input type="radio" name="animal" value="pisica">Pisica<br>
+			        <input type="radio" name="animal" value="elefant">Elefant<br>
+			        <input type="radio" name="animal" value="alta">Alta: <input type="text" name="desen_preferat_other"><br>
+
+              <div class="container">
+                <input type="button" onclick="window.location.href='file:///C:/Users/georg/facultate/an%202/sem%202/retele%20de%20calculatoare/seminar/seminar6%20-%20pagina2.html';" class="btn btn-warning btn-lg" value="Inapoi"/>
+                <button type="submit">Submit</button>
+              </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

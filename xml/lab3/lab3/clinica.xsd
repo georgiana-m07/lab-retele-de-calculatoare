@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="clinica">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="departament">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="medic">      
+                            <xs:complexType>
+                                <xs:sequence>
+                                    
+                                    <xs:element name="nume" type="xs:string"/>
+                                    <xs:element name="prenume" type="xs:string"/>
+                                    <xs:element name="titulatura" type="xs:string"/>
+                                    
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="asistent">   
+                            
+                            <xs:complexType>
+                                <xs:sequence>
+                                    
+                                    <xs:element name="nume" type="xs:string"/>
+                                    <xs:element name="prenume" type="xs:string"/>
+                               
+                                </xs:sequence>
+                            </xs:complexType>
+                            
+                        </xs:element>
+                    </xs:sequence>                    
+                </xs:complexType>
+            </xs:element>
+            
+        </xs:sequence>
+        
+    </xs:complexType>
+    
+</xs:element>
+
+</xs:schema>

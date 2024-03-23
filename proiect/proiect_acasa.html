@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="proiect.xsl"?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Spider-Man: No Way Home</title>
+    <link rel="stylesheet" href="proiect.css">
+</head>
+<body style="background-image: url('imagini/spiderman-wallpaper.jpeg');">
+    <!-- Antetul paginii -->
+    <header>
+        <h1>Spider-Man: No Way Home</h1>
+        <nav>
+            <ul>
+                <li><a href="proiect_acasa.html">Acasă</a></li>
+                <li><a href="proiect_descriere.html">Descriere</a></li>
+                <li><a href="proiect_imagini-video.html">Imagini și videoclipuri</a></li>
+                <li><a href="proiect_soundtrack.html">Soundtrack</a></li>
+                <li><a href="proiect_recenzii.html">Recenzii și comentarii</a></li>
+                <li><a href="proiect_formular.html">Formular bilete film</a></li>
+                <li><a href="proiect_tabel.html">Tabel XML</a></li>
+                <li><a href="proiect_interogari.html">Interogări</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Secțiunea "Descriere" -->
+    <main>
+        <section id="descriere">
+            <h2>Descriere</h2>
+            <p>Spider-Man: No Way Home este un film de acțiune și aventură din 2021, regizat de Jon Watts și produs de Kevin Feige. Filmul este o continuare a peliculelor Spider-Man: Homecoming din 2017 și Spider-Man: Far From Home din 2019, fiind al treilea film din seria Spider-Man din cadrul francizei Marvel Cinematic Universe.</p>
+            <img src="imagini/spiderman no way home/spiderman-no-way-home_poster.jpg" alt="Spider-Man: No Way Home poster">
+            <h3>Distribuție</h3>
+            <ul>
+                <li>Tom Holland ca Peter Parker / Spider-Man</li>
+                <li>Zendaya ca MJ</li>
+                <li>Jacob Batalon ca Ned Leeds</li>
+                <li>Marisa Tomei ca May Parker</li>
+                <li>Jon Favreau ca Happy Hogan</li>
+                <li>Benedict Cumberbatch ca Doctor Strange</li>
+            </ul>
+        </section>
+        
+        <!-- Secțiunea "Imagini și videoclipuri" -->
+        
+        <section id="imagini">
+            <h2>Imagini și videoclipuri</h2>
+            <div id="imagini-acasa">
+                <img width=50% src="imagini/spiderman no way home/spiderman-no-way-home_img1.jpg" alt="Spider-Man: No Way Home image">
+                <img width=50% src="imagini/spiderman no way home/spiderman-no-way-home_img2.jpeg" alt="Spider-Man: No Way Home image">
+                <img width=50% src="imagini/spiderman no way home/spiderman-no-way-home_img3.jpg" alt="Spider-Man: No Way Home image">
+                <img width=50% src="imagini/spiderman no way home/spiderman-no-way-home_img4.jpeg" alt="Spider-Man: No Way Home image">
+            </div>
+            <iframe src="https://www.youtube.com/embed/rt-2cxAiPJk" title="Spider-Man: No Way Home trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <!-- Secțiunea "Recenzii și comentarii" -->
+        <section id="recenzii">
+            <h2>Recenzii și comentarii</h2>
+            <blockquote>"Un film plin de suspans și acțiune, care îi aduce pe fanii Spider-Man la marginea scaunelor lor." - The Hollywood Reporter</blockquote>
+            <blockquote>"Tom Holland și restul distribuției fac o treabă excelentă în a aduce această poveste la viață. Un must-see pentru toți fanii Marvel." - Variety</blockquote>
+            <blockquote>"Spider-Man: No Way Home este cel mai bun film Spider-Man până în prezent. O aventură captivantă și emoționantă." - IGN</blockquote>
+            <br>
+            <h3>Lăsați un comentariu</h3>
+            <form action="proiect_procesare_comentariu.php" method="POST">
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" name="nume" required>
+                <br>
+                <label for="comentariu">Comentariu:</label>
+                <textarea id="comentariu" name="comentariu" required></textarea>
+                <br>
+                <input type="submit" value="Trimite">
+            </form>
+        </section>
+    </main>
+    
+    <!-- Subsolul paginii -->
+    <footer>
+        <p>&copy; 2023 Spider-Man: No Way Home. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>

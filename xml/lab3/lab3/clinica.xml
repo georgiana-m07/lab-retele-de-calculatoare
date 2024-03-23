@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="clinica.xsl"?>
+<clinica nume="Unimed" oras="Timisoara" tip="Policlinica">
+
+    <departament denumire="Oftalmologie">
+       
+       
+        <medic>
+            <nume> Darie </nume>
+            <prenume> Mihai </prenume>
+            <titulatura> Medic primar </titulatura>
+        </medic>
+        <medic>
+            <nume> Lucaci </nume>
+            <prenume> Adrian </prenume>
+            <titulatura> Medic rezident </titulatura>
+        </medic>
+        <medic>
+            <nume> Laran </nume>
+            <prenume> Vera </prenume>
+            <titulatura> Medic primar </titulatura>
+        </medic>
+        <asistent>
+            <nume> Setcu </nume>
+            <prenume> Ioan </prenume>
+        </asistent>
+     
+        
+        
+    </departament>
+
+    <departament denumire="Dermatologie">
+        
+        <medic>
+            <nume> Radu </nume>
+            <prenume> Daniel </prenume>
+            <titulatura> Medic primar </titulatura>
+        </medic>
+        <asistent>
+            <nume> Graure </nume>
+            <prenume> Violeta </prenume>
+        </asistent>
+
+    </departament>
+
+    <departament denumire="Cardiologie">
+        
+        <medic>
+            <nume> Duna </nume>
+            <prenume> Nicoleta </prenume>
+            <titulatura> Medic rezident </titulatura>
+        </medic>
+        <medic>
+            <nume> Turcan </nume>
+            <prenume> Mihai </prenume>
+            <titulatura> Medic primar </titulatura>
+        </medic>
+        <asistent>
+            <nume> Pucrcas </nume>
+            <prenume> Gabriela </prenume>
+        </asistent>
+       
+    </departament>
+
+    <departament denumire="Pediatrie">
+        
+        <medic>
+            <nume> Rana </nume>
+            <prenume> Maria </prenume>
+            <titulatura> Medic rezident </titulatura>
+        </medic>
+        <medic>
+            <nume> Vata </nume>
+            <prenume> Andrei </prenume>
+            <titulatura> Medic primar </titulatura>
+        </medic>
+        <asistent>
+            <nume> Manciu </nume>
+            <prenume> Slivia </prenume>
+        </asistent>
+        <asistent>
+            <nume> Adaveni </nume>
+            <prenume> Sofia </prenume>
+        </asistent>
+       
+    </departament>
+
+    <departament denumire="Endocrinologie">
+        
+        <medic>
+            <nume> Dumas </nume>
+            <prenume> Diana </prenume>
+            <titulatura> Medic rezident </titulatura>
+        </medic>
+        <medic>
+            <nume> Razvan </nume>
+            <prenume> Andrei </prenume>
+            <titulatura> Medic primar </titulatura>
+        </medic>
+        <asistent>
+            <nume> Puscas </nume>
+            <prenume> Ioana </prenume>
+        </asistent>
+        <asistent>
+            <nume> Miron </nume>
+            <prenume> Anda </prenume>
+        </asistent>
+       
+    </departament>
+
+    <departament denumire="Ginecologie">
+        
+        <medic>
+            <nume> Matyus </nume>
+            <prenume> Larysa-Alexandra </prenume>
+            <titulatura> Medic rezident </titulatura>
+        </medic>
+        <medic>
+            <nume> Caprioru </nume>
+            <prenume> Silviu </prenume>
+            <titulatura> Medic primar </titulatura>
+        </medic>
+        <asistent>
+            <nume> Buftea </nume>
+            <prenume> Anastasia </prenume>
+        </asistent>
+        <asistent>
+            <nume> Ionescu </nume>
+            <prenume> Mirela Ioana </prenume>
+        </asistent>
+       
+    </departament>
+
+</clinica>

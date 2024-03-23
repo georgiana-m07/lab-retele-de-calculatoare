@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="asociatie.xsl"?>
+
+<asociatie>
+    <apartament>
+        <nr>1</nr>
+        <proprietar>Olaru Lucian</proprietar>
+        <nr_camere>2</nr_camere>
+        <suprafata_totala>40 m2</suprafata_totala>
+    
+    </apartament>
+    
+    <apartament>
+        <nr>2</nr>
+        <proprietar>Fercas Tatiana</proprietar>
+        <nr_camere>3</nr_camere>
+        <suprafata_totala>81 m2</suprafata_totala>
+        
+    </apartament>
+    
+    <apartament>
+        <nr>3</nr>
+        <proprietar>Visinescu Anton</proprietar>
+        <nr_camere>2</nr_camere>
+        <suprafata_totala>35 m2</suprafata_totala>
+        
+    </apartament>
+    
+    <apartament>
+        <nr>4</nr>
+        <proprietar>Trifu Catalina</proprietar>
+        <nr_camere>1</nr_camere>
+        <suprafata_totala>30 m2</suprafata_totala>
+        
+    </apartament>
+    
+    <apartament>
+        <nr>5</nr>
+        <proprietar>Andonici Roxana</proprietar>
+        <nr_camere>2</nr_camere>
+        <suprafata_totala>50 m2</suprafata_totala>
+        
+    </apartament>
+    
+    <apartament>
+        <nr>6</nr>
+        <proprietar>Popescu Florian</proprietar>
+        <nr_camere>3</nr_camere>
+        <suprafata_totala>75 m2</suprafata_totala>
+        
+    </apartament>
+    
+    <apartament>
+        <nr>7</nr>
+        <proprietar>Taclit Emanuel</proprietar>
+        <nr_camere>3</nr_camere>
+        <suprafata_totala>60 m2</suprafata_totala>
+        
+    </apartament>
+    
+    <apartament>
+        <nr>8</nr>
+        <proprietar>Mihaescu Ana</proprietar>
+        <nr_camere>2</nr_camere>
+        <suprafata_totala>50 m2</suprafata_totala>
+        
+    </apartament>
+    
+    <apartament>
+        <nr>9</nr>
+        <proprietar>Paraschiv Georgiana</proprietar>
+        <nr_camere>1</nr_camere>
+        <suprafata_totala>25 m2</suprafata_totala>
+        
+    </apartament>
+    
+    <apartament>
+        <nr>10</nr>
+        <proprietar>Fildan Octavian</proprietar>
+        <nr_camere>3</nr_camere>
+        <suprafata_totala>60 m2</suprafata_totala>
+        
+    </apartament>
+    
+</asociatie>
